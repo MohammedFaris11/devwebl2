@@ -1,0 +1,51 @@
+h1{
+    color: blue;
+    size: 10px;
+}
+p{
+    color: red;
+    size: 8px;
+}
+span{
+    color: green;
+    size: 15px;
+}
+h1:hover{
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+    font-weight: 600;
+}
+img{
+    width: 200px;
+    height: 200pxMdn;
+    border-radius: 50%;
+
+}
+.divhome{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.divprincipal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.h2divhome{
+    margin-left: 3rem;
+}
+.list{
+    list-style: none;
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.imag{
+    justify-content: center;
+    gap: 10px;
+    display: flex;
+    margin: 10px;
+    
+
+}
